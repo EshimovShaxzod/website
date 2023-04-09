@@ -1068,8 +1068,8 @@
     /* team_section qismi uchun */
     .team_section{
         background: #012F34;
-        height: 870px;
-        padding-top: 80px;
+        height: 910px;
+        padding-top: 50px;
     }
     .lang{
         width: 50px;
@@ -1162,7 +1162,7 @@
     }
      /* started_section uchun */
     .started_section{
-        height: 220px;
+        height: 250px;
         background: #F67E7E;
         text-align: center;
     }
@@ -1577,7 +1577,7 @@
 /* results_section */
 .results_section{
     background: #004047;
-    height: 1300px;
+    height: 1330px;
     padding-top: 70px;
 }
 .results_title{

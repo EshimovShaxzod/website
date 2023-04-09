@@ -915,7 +915,7 @@
 .networks_list{
     display: flex;
     list-style: none;
-    padding-left:160px ;
+    padding-left:110px ;
     margin-bottom: 60px;
 }
 .bx{
@@ -1098,5 +1098,44 @@
     cursor: pointer;
 }
 
+
+}
+
+@media screen and (max-width:440px) {
+    .container{
+        width: 420px;
+        margin: 0 auto;
+        padding: 0 10px;
+    }
+
+    .col-xxs,
+    .col-xxs-1,
+    .col-xxs-2,
+    .col-xxs-3,
+    .col-xxs-4,
+    .col-xxs-5,
+    .col-xxs-6,
+    .col-xxs-7,
+    .col-xxs-8,
+    .col-xxs-9,
+    .col-xxs-10,
+    .col-xxs-11,
+    .col-xxs-12{
+        float: left;
+        padding: 0 1 rem;
+    }
+
+    .col-xxs-1{width: 8.33%;}
+    .col-xxs-2{width: 16.6%;}
+    .col-xxs-3{width: 25%;}
+    .col-xxs-4{width: 33.33%;}
+    .col-xxs-5{width: 41.66%;}
+    .col-xxs-6{width: 50%;}
+    .col-xxs-7{width: 58.33%;}
+    .col-xxs-8{width: 66.6%;}
+    .col-xxs-9{width: 75%;}
+    .col-xxs-10{width: 83.33%;}
+    .col-xxs-11{width: 91.66%;}
+    .col-xxs-12{width: 100%;}
 
 }

@@ -298,7 +298,6 @@
 .networks_list{
     display: flex;
     list-style: none;
-    padding-left:80px ;
     margin-bottom: 60px;
 }
 .bx{

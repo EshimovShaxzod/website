@@ -1103,6 +1103,7 @@
 
 @media screen and (max-width:440px) {
     .container{
+        max-width: 430px;
         margin: 0 auto;
         padding: 0 10px;
     }

@@ -131,6 +131,11 @@
     color: #014E56;
     border: 0;
     cursor: pointer;
+    transition: .6s;
+}
+.submit_input:hover{
+    background-color: #004047;
+    color: white;
 }
 
 /* footer uchun */

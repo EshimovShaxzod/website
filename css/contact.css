@@ -118,10 +118,27 @@
    width: 100%;
    margin-bottom: 45px;
    border: none;
-   border-bottom: 1px solid white;
+   border-bottom: 1px solid rgb(142, 139, 139);
    padding: 6px 3px;
-   color: white;
+   color: rgb(255, 255, 255);
    background-color: #014E56;
+   outline: none;
+   font-size: 16px;
+}
+.text:focus{
+    border-bottom: 1px solid rgb(16, 189, 201);
+}
+.email:focus{
+    border-bottom: 1px solid rgb(16, 189, 201);
+}
+.company:focus{
+    border-bottom: 1px solid rgb(16, 189, 201);
+}
+.message_input:focus{
+    border-bottom: 1px solid rgb(16, 189, 201);
+}
+.title_input:focus{
+    border-bottom: 1px solid rgb(16, 189, 201);
 }
 .submit_input{
     padding: 10px 25px;
